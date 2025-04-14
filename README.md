@@ -57,6 +57,6 @@ Este proyecto es de tipo educativo, para poner en practica lo aprendido tomate l
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
-- Email: lol2309lol@gmail.com
+- Email: rchuquimia94@gmail.com
 - LinkedIn: [Rodrigo Chuquimia Gutierrez] (https://www.linkedin.com/in/rodrigo-chuquimia-gutierrez-2640b2242/)
 - GitHub: [RC-Dev07](https://github.com/RC-Dev07?tab=repositories)
