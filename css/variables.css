@@ -1,14 +1,22 @@
-/* variables.css - Variables CSS para colores, fuentes y más */
+/* Personalizar el tema: Cambia las variables de color en css-examples/styles.css para usar tu propia paleta.  */
 
 :root {
-  /* Colores */
-  --primary-color: #00bfff;
-  --secondary-color: #2c3e50;
-  --accent-color: #e74c3c;
-  --light-color: #f5f5f5;
-  --dark-color: #333333;
-  --gray-color: #777777;
+  --primary-color: #130a78;
+  --secondary-color: #0f075e;
+  --accent-color: #0a0543;
+  --background-color: #4b66d4;
+  --dark-color: #00000e;
+  --text-color: #130a78;
+
+  /* Neutros */
   --white-color: #ffffff;
+  --light-color: #4b66d43b;
+  --gray-color: #777777;
+  --dark-color: #1a1a2e;
+
+  /* Gradientes */
+  --gradient-primary: linear-gradient(90deg, #130a78 0%, #4b66d4 100%);
+  --gradient-accent: linear-gradient(90deg, #0a0543 0%, #3c47a1 100%);
 
   /* Tipografía */
   --font-primary: "Poppins", sans-serif;
@@ -40,7 +48,7 @@
   --border-radius-circle: 50%;
 
   /* Sombras */
-  --shadow-light: 0 2px 10px rgba(0, 0, 0, 0.1);
-  --shadow-medium: 0 5px 15px rgba(0, 0, 0, 0.1);
-  --shadow-dark: 0 8px 30px rgba(0, 0, 0, 0.2);
+  --shadow-light: 0 2px 10px rgba(0, 191, 255, 0.2);
+  --shadow-medium: 0 5px 15px rgba(28, 131, 255, 0.3);
+  --shadow-dark: 0 8px 30px rgba(0, 0, 0, 0.4);
 }

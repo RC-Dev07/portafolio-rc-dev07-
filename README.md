@@ -1,57 +1,60 @@
-## Instalación y uso
+# Proyecto: Ejemplos Interactivos de Funciones JavaScript
 
-1. Clona este repositorio:
+Este proyecto consiste en una serie de ejemplos interactivos para aprender y practicar las funciones en JavaScript. La página web está diseñada para ser educativa y práctica, ofreciendo ejemplos que muestran cómo funcionan diferentes tipos de funciones en JavaScript, así como la integración con APIs externas para realizar operaciones interesantes.
 
-   ```
-   git clone https://github.com/tu-usuario/portafolio-web.git
-   ```
+### Descripción
 
-2. Navega hasta la carpeta del proyecto:
+Es una sección donde los usuarios pueden interactuar con varias funciones de JavaScript. Esta sección está dividida en varias subsecciones que cubren diferentes aspectos de las funciones en JavaScript, tales como funciones declarativas, funciones anónimas, arrow functions, funciones anidadas, etc.
 
-   ```
-   cd portafolio-web
-   ```
+Cada subsección incluye un ejemplo práctico que el usuario puede ejecutar directamente en la página para ver el resultado en tiempo real. Además, algunos ejemplos permiten que el usuario ingrese valores personalizados, lo que hace que la experiencia sea más interactiva y educativa.
 
-3. Abre el archivo `index.html` en tu navegador favorito o utiliza un servidor local.
+### Funciones incluidas:
 
-## Personalización
+1. **Función Declarativa (Cuadrado)**: Calcula el cuadrado de un número ingresado por el usuario.
+2. **Función Expresiva (Potencia)**: Calcula la potencia de un número dado una base y un exponente.
+3. **Arrow Function (División)**: Realiza una división entre dos números ingresados por el usuario.
+4. **Función Anidada (Receta de Hummus)**: Muestra los ingredientes necesarios para preparar hummus.
+5. **Alcance (Scope)**: Prueba de cómo funciona el alcance de las variables en diferentes contextos.
+6. **Recursividad (Factorial)**: Calcula el factorial de un número usando una función recursiva.
+7. **Calcular IMC (Índice de Masa Corporal)**: Permite calcular el índice de masa corporal (IMC) basado en el peso y la altura ingresados.
 
-Para personalizar este portafolio y hacerlo tuyo:
+Cada uno de estos ejemplos tiene un formulario interactivo y muestra los resultados debajo de los controles de entrada.
 
-1. Reemplaza las imágenes en la carpeta `img/` con tus propias fotos.
-2. Edita el archivo `index.html` para actualizar la información personal, experiencia, proyectos y hobbies.
-3. Modifica los colores y estilos en el archivo `styles.css`. Puedes cambiar fácilmente los colores principales editando las variables CSS en la sección `:root`.
+---
 
-## Implementación
+## Navegación
 
-Para subir tu portafolio a un servidor web:
+La página tiene un menú de navegación sencillo que permite al usuario cambiar entre dos secciones principales:
 
-1. Registra un dominio y contrata un servicio de hosting.
-2. Sube los archivos a tu hosting mediante FTP o Git.
-3. ¡Listo! Tu portafolio está online.
+### 1. **Funciones Básicas**
 
-## Implementación con GitHub Pages
+Esta es la sección principal donde se encuentran los ejemplos de funciones JavaScript, como se mencionó anteriormente. Aquí los usuarios pueden probar las diferentes funciones y ver los resultados al instante.
 
-También puedes alojar tu portafolio gratuitamente en GitHub Pages:
+### 2. **Ejemplos con API**
 
-1. Crea un repositorio en GitHub con el nombre `tu-usuario.github.io`.
-2. Sube el código de tu portafolio a este repositorio.
-3. Activa GitHub Pages en la configuración del repositorio.
-4. Tu portafolio estará disponible en `https://tu-usuario.github.io`.
+En esta sección, se muestran ejemplos que interactúan con APIs externas, como la PokeAPI para obtener información sobre Pokémon y la Dog CEO API para mostrar imágenes aleatorias de perros. Los ejemplos incluyen:
 
-## Contribución
+- **Obtener Pokémon (Promesas)**
+- **Cadena de Evoluciones (Async/Await)**
+- **Pokémon Aleatorio (Fetch + Then)**
+- **Obtener Pokémon por Nombre (Async/Await)**
+- **Perro Aleatorio**
 
-Las contribuciones son bienvenidas. Si quieres mejorar este proyecto:
+### Cómo navegar:
 
-1. Haz un fork del repositorio.
-2. Crea una rama para tu funcionalidad: `git checkout -b nueva-funcionalidad`.
-3. Realiza tus cambios y haz commit: `git commit -m 'Añadir nueva funcionalidad'`.
-4. Sube los cambios a tu fork: `git push origin nueva-funcionalidad`.
-5. Envía un Pull Request.
+- Los botones en el menú permiten cambiar entre la sección de "Funciones Básicas" y "Ejemplos con API". Cuando el usuario hace clic en uno de los botones, la sección correspondiente se muestra, y la sección no activa se oculta.
+- **Funciones Básicas**: Incluye ejemplos interactivos de funciones en JavaScript.
+- **Ejemplos con API**: Muestra cómo consumir y manejar datos de APIs externas, mostrando resultados en tiempo real.
 
-## Licencia
+### Responsividad:
 
-Este proyecto es de tipo educativo, para poner en practica lo aprendido tomate la libertad de personalizarlo a tu manera
+- La página está diseñada para ser completamente responsiva, asegurando que la experiencia sea fluida en dispositivos móviles, tablets y escritorios.
+- Los formularios y botones son adaptativos y ocupan el 100% del ancho en dispositivos pequeños, garantizando que los usuarios puedan interactuar cómodamente con el contenido en cualquier tamaño de pantalla.
+
+## Requisitos
+
+- Un navegador moderno (Chrome, Firefox, Edge, etc.)
+- Conexión a Internet para consumir las APIs externas.
 
 ## Contacto
 

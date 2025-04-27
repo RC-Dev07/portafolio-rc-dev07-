@@ -1,0 +1,62 @@
+<!-- Añadir un nuevo ejemplo de Grid: Crea css-examples/indexgrid.html mostrando una galería de imágenes con CSS Grid.  -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galería con CSS Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4626d0;
+        }
+
+        .grid-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .grid-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .grid-gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Galería de Imágenes</h1>
+
+    <div class="grid-gallery">
+        <img src="https://picsum.photos/300/200?random=1" alt="Imagen 1">
+        <img src="https://picsum.photos/300/200?random=2" alt="Imagen 2">
+        <img src="https://picsum.photos/300/200?random=3" alt="Imagen 3">
+        <img src="https://picsum.photos/300/200?random=4" alt="Imagen 4">
+        <img src="https://picsum.photos/300/200?random=5" alt="Imagen 5">
+        <img src="https://picsum.photos/300/200?random=6" alt="Imagen 6">
+        <img src="https://picsum.photos/300/200?random=7" alt="Imagen 7">
+        <img src="https://picsum.photos/300/200?random=8" alt="Imagen 8">
+        <img src="https://picsum.photos/300/200?random=9" alt="Imagen 9">
+        <img src="https://picsum.photos/300/200?random=10" alt="Imagen 10">
+    </div>
+
+</body>
+
+</html>
